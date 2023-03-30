@@ -4,10 +4,10 @@
       <div class="loginPanel">
         <h1>REGISTER</h1><br/>
           <div class="info">
-            <p class="infoText">USERNAME</p>
+            <p class="infoText">EMAIL</p>
             <input type="text" placeholder="Username" v-model="formData.email"/>
-            <div id="username_empty" >Invalid Username</div>
-            <div id="username_exists" >Username already exists</div>
+            <div id="username_empty" >Invalid Email</div>
+            <div id="username_exists" >Email already registered</div>
             <p class="infoText">PASSWORD</p>
             <input type="password" placeholder="Password" v-model="formData.password"/>
             <div id="password_empty" >Invalid Password</div>

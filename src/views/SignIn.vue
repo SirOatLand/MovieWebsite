@@ -7,7 +7,7 @@
       <div class="loginPanel">
         <h1>SIGN IN</h1><br/>
           <div class="info">
-            <p class="infoText">Email</p>
+            <p class="infoText">EMAIL</p>
             <input v-model="formData.email" type="text" placeholder="Email" >
             <div id="username_empty" >Please enter your username</div>
             <div id="username_incorrect" >Incorrect username or password</div>
