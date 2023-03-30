@@ -57,7 +57,7 @@ import axios from 'axios'
     name: 'CityList',
     data () {
       return {
-        apikey: import.meta.env.VITE_apiKeyTMDB,
+        apikey: import.meta.env.VITE_apiKey_TMDB,
         movieInfo: {},
         movieId: this.$route.params.movieid,
         moviePoster: '',

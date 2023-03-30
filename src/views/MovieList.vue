@@ -32,7 +32,7 @@ export default {
     return {
       movieList: {},
       search: '',
-      apiKey: import.meta.env.VITE_apiKeyTMDB
+      apiKey: import.meta.env.VITE_apiKey_TMDB
     }
   },
   created () {
