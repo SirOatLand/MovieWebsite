@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './assets/main.css'
 
-
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_apiKey,
     authDomain: import.meta.env.VITE_authDomain,
@@ -16,6 +15,6 @@ const firebaseConfig = {
     appId: import.meta.env.VITE_appId,
     measurementId: import.meta.env.VITE_measurementId
 };
+
 let app = initializeApp(firebaseConfig)
 app = createApp(App).use(router).mount('#app')
-
