@@ -5,7 +5,7 @@
         <h1>REGISTER</h1><br/>
           <div class="info">
             <p class="infoText">EMAIL</p>
-            <input type="text" placeholder="Username" v-model="formData.email"/>
+            <input type="text" placeholder="Email" v-model="formData.email"/>
             <div id="username_empty" >Invalid Email</div>
             <div id="username_exists" >Email already registered</div>
             <p class="infoText">PASSWORD</p>
