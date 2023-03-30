@@ -57,7 +57,7 @@ import axios from 'axios'
     name: 'CityList',
     data () {
       return {
-        apikey: 'e4812b0763e5a2d97cbb969c192759a7',
+        apikey: import.meta.env.VITE_apiKeyTMDB,
         movieInfo: {},
         movieId: this.$route.params.movieid,
         moviePoster: '',
@@ -68,7 +68,7 @@ import axios from 'axios'
         curUserId: getAuth().currentUser.uid,
         //for slider
         showValue: false,
-        ratingValue: 50, 
+        ratingValue:  50, 
       }
   },
 
@@ -100,6 +100,7 @@ import axios from 'axios'
         .shift();
       
       this.curUserReview = userReview || {};
+      //this.ratingValue = userScore || 50;
       let personal_review = document.getElementById('personal-review');
       console.log(this.curUserReview.review);
       if(this.curUserReview.review != undefined){

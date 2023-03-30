@@ -32,7 +32,7 @@ export default {
     return {
       movieList: {},
       search: '',
-      apiKey: 'e4812b0763e5a2d97cbb969c192759a7'
+      apiKey: import.meta.env.VITE_apiKeyTMDB
     }
   },
   created () {
